@@ -66,7 +66,7 @@ const PlaceDetails = ({place, selected, refProp}) => {
 
                 {place?.phone && (
                     <Typography gutterbottom variant="subtitle2" color="textSecondard" className={classes.spacing}>
-                        <PhoneIcon/>{place.address}
+                        <PhoneIcon/>{place.phone}
                     </Typography>   
                 )}
 
